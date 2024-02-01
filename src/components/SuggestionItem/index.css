@@ -1,0 +1,36 @@
+.search-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topic {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-right: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .topic {
+    font-size: 17px;
+  }
+}
+
+.arrow-img {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-img {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.arrow-btn {
+  border: none;
+  background-color: #ffffff;
+}
